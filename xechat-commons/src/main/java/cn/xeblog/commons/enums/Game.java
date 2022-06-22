@@ -11,6 +11,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum Game {
     GOBANG("五子棋", false),
+    MINE("扫雷", false),
     LANDLORDS("斗地主", false);
 
     /**
